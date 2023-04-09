@@ -2,7 +2,7 @@
 
 ## Description
 
-VIDA is a tool that uses AI to compare vectorized image data stored in a database. The tool leverages [Weaviate's](https://github.com/weaviate/weaviate) vector database technology and the `img2vec-neural` vectorizer to convert images into vectors and perform fast and efficient image comparison queries. VIDA uses the Hierarchical Navigable Small World (hnsw) algorithm, an approximate nearest neighbor (ANN) algorithm that is optimized for high-dimensional vector spaces, to search for similar vectors in the database.
+VIDA is a tool that uses AI to compare vectorized image data stored in a database. The tool leverages [Weaviate's](https://github.com/weaviate/weaviate) vector database technology and the `img2vec-neural` vectorizer to convert images into vectors and perform fast and efficient image comparison queries. VIDA uses the [Hierarchical Navigable Small World (hnsw)](https://www.pinecone.io/learn/hnsw/) algorithm, an approximate nearest neighbor (ANN) algorithm that is optimized for high-dimensional vector spaces, to search for similar vectors in the database.
 
 ## Why I Created This Project
 
