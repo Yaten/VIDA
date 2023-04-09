@@ -29,7 +29,7 @@ By following these steps, VIDA allows you to compare vectorized image data in a 
 
 1. Clone this repository:
 	```shell
-	git clone https://github.com/Yaten/vida.git
+	git clone https://github.com/Yaten/VIDA.git
 	```
 
 2. Navigate to the directory of the cloned repository.
