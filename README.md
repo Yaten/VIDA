@@ -2,11 +2,11 @@
 
 ## Description
 
-VIDA is a tool that uses AI to compare vectorized image data stored in a database. The tool leverages Weaviate's vector database technology and the `img2vec-neural` vectorizer to convert images into vectors and perform fast and efficient image comparison queries. VIDA uses the Hierarchical Navigable Small World (hnsw) algorithm, an approximate nearest neighbor (ANN) algorithm that is optimized for high-dimensional vector spaces, to search for similar vectors in the database.
+VIDA is a tool that uses AI to compare vectorized image data stored in a database. The tool leverages [Weaviate's](https://github.com/weaviate/weaviate) vector database technology and the `img2vec-neural` vectorizer to convert images into vectors and perform fast and efficient image comparison queries. VIDA uses the Hierarchical Navigable Small World (hnsw) algorithm, an approximate nearest neighbor (ANN) algorithm that is optimized for high-dimensional vector spaces, to search for similar vectors in the database.
 
 ## Why I Created This Project
 
-I created this project to learn more about vector databases and their applications in machine learning. Vector databases allow you to store data objects and vector embeddings from your favorite ML-models, and scale seamlessly into billions of data objects. By using VIDA, you can compare images and vectors stored in a Weaviate database with ease.
+I created this project to learn more about [vector databases](https://www.pinecone.io/learn/vector-database/) and their applications in machine learning. Vector databases allow you to store data objects and vector embeddings from your favorite ML-models, and scale seamlessly into billions of data objects. By using VIDA, you can compare images and vectors stored in a Weaviate database with ease.
 
 ## Technical Concept
 
@@ -22,7 +22,8 @@ By following these steps, VIDA allows you to compare vectorized image data in a 
 ### Requirements
 
 * Node.js (v12 or higher)
-* A running Weaviate instance with HTTP access enabled (on the endpoint "http://localhost:8080" by default)
+* Docker
+* Docker Compose
 
 ### Usage
 
